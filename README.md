@@ -26,7 +26,7 @@ Get-DlpCompliancePolicy "MyDLP-Test01-Confidentialtext" | Where-Object -Property
 ```
 Output
  
-![alt text](https://github.com/Rajeshcbsa/Endpoint-DLP-Microsoft/blob/main/img/output2.png?raw=true)
+![alt text](https://github.com/Rajeshcbsa/Endpoint-DLP-Microsoft/blob/main/img/Output2.png?raw=true)
  
 
 Get-DlpCompliancePolicy "MyDLP-Test01-Confidentialtext" | Where-Object -Property EndpointDlpLocation -NE ""|Select-Object Priority,DisplayName,Mode,EndpointDlpLocation,EndpointDlpLocationException

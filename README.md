@@ -9,11 +9,10 @@ Test DLP Site https://testdlp.thehpc.in/
 ```sh
 Get-DlpCompliancePolicy 
 
-![alt text](img/image.png)
 ```
-
+Output
  
-
+![alt text](https://github.com/Rajeshcbsa/Endpoint-DLP-Microsoft/blob/main/img/image.png?raw=true)
 
 
 Developed by Rajeshcbsa

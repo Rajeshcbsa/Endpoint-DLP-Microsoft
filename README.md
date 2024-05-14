@@ -9,7 +9,7 @@ Test DLP Site https://testdlp.thehpc.in/
 ```sh
 Get-DlpCompliancePolicy 
 
-![alt text](img/image.png)
+![alt text](https://github.com/Rajeshcbsa/Endpoint-DLP-Microsoft/blob/b49c857bec4784114a344c775ccbad86d2f002b8/img/image.png)
 ```
 
  

@@ -1,0 +1,13 @@
+##########################################################################################
+
+AlertInfo 
+| join kind=inner (
+    AlertEvidence
+    |where DetectionSource contains "Microsoft Data Loss Prevention"
+ )
+ on AlertId
+| summarize count()by bin(Timestamp,1d)
+| render timechart
+
+
+##########################################################################################

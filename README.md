@@ -1,35 +1,42 @@
 # Endpoint-DLP-Microsoft
-Microsoft Endpoint DLP
+## DLP Test WebSites
+> -   Test DLP Site1 https://testdlp.thehpc.in/ 
+> - Test DLP Site2 https://testdlp.azurewebsites.net/
 
-Test DLP Site https://testdlp.thehpc.in/
+<br>
 
+## Here is Powershel Commadlets Samples.
 
+#### <u> # Run below command to get all the DLP Policy </u> 
 
-## Get All Dlp Policy ✨
 ```sh
-Get-DlpCompliancePolicy 
+ Get-DlpCompliancePolicy 
 
 ```
-Output
- 
-![alt text](https://github.com/Rajeshcbsa/Endpoint-DLP-Microsoft/blob/main/img/output1.png?raw=true)
+<u> Output </u>
 
-## Get Policy Details for a specific Policy
+ ![alt text](https://github.com/Rajeshcbsa/Endpoint-DLP-Microsoft/blob/main/img/output1.png?raw=true)
+
+#### <u> # Get Policy Details for a specific Policy </u>
 ```sh
-Get-DlpCompliancePolicy "MyDLP-Test01-Confidentialtext"
+ Get-DlpCompliancePolicy "MyDLP-Test01-Confidentialtext"
 
-or
+ or
 
-Get-DlpCompliancePolicy "MyDLP-Test01-Confidentialtext" | Where-Object -Property EndpointDlpLocation -NE ""|Select-Object Priority,DisplayName,Mode,EndpointDlpLocation,EndpointDlpLocationException
+ Get-DlpCompliancePolicy "MyDLP-Test01-Confidentialtext" | Where-Object -Property EndpointDlpLocation -NE ""|Select-Object Priority,DisplayName,Mode,EndpointDlpLocation,EndpointDlpLocationException
 
 
 ```
-Output
+<u> Output </u>
  
 ![alt text](https://github.com/Rajeshcbsa/Endpoint-DLP-Microsoft/blob/main/img/Output2.png?raw=true)
  
 
-Get-DlpCompliancePolicy "MyDLP-Test01-Confidentialtext" | Where-Object -Property EndpointDlpLocation -NE ""|Select-Object Priority,DisplayName,Mode,EndpointDlpLocation,EndpointDlpLocationException
+<br>
+<br>
+<br>
+<br>
+
 
 Developed by Rajeshcbsa
 https://github.com/Rajeshcbsa/Endpoint-DLP-Microsoft
